@@ -1,3 +1,7 @@
+locals {
+  version = "0.1.0"
+}
+
 resource "null_resource" "module_depends_on" {
 	triggers = {
 		value = "${length(var.module_depends_on)}"
@@ -16,5 +20,4 @@ resource "null_resource" "bot_channel_msteams" {
 	}
 
 	depends_on = ["null_resource.module_depends_on"]
-	version    = v0.1.0
 }
