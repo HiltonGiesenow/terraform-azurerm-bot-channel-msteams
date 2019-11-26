@@ -1,7 +1,3 @@
-locals {
-  version = "0.1.0"
-}
-
 resource "null_resource" "module_depends_on" {
 	triggers = {
 		value = "${length(var.module_depends_on)}"
