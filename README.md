@@ -1,4 +1,4 @@
-# terraform_bot_channel_msteams
+# terraform-azurerm-bot-channel-msteams
 
 A module to add the MS Teams channel to a Microsoft Azure Bot. This is a hopefully just a workaround until the functionality exists in Terraform itself (possible via PR https://github.com/terraform-providers/terraform-provider-azurerm/pull/4984)
 
